@@ -1,4 +1,4 @@
-# DockAgents 🐳🤖
+# DockAgents 
 
 **DockAgents**, doğal dil komutlarını kullanarak üretim ortamına hazır (production-ready) ve güvenliği önceliklendiren Docker Compose yapılandırmaları oluşturan AI tabanlı bir orkestrasyon sistemidir. 
 
@@ -6,7 +6,7 @@ Sistem, **LangGraph.js** kullanarak geliştirilmiş sofistike bir çoklu-ajan (m
 
 ---
 
-## 🏗️ Mimari ve Çalışma Mantığı
+## Mimari ve Çalışma Mantığı
 
 DockAgents, "Chain of Thought" prensibini bir adım öteye taşıyarak ajanlar arası bir geri bildirim döngüsü kurar.
 
@@ -47,7 +47,7 @@ graph TD
 
 ---
 
-## 🚀 Teknolojik Altyapı
+## Teknolojik Altyapı
 
 - **Framework:** Node.js (Express.js)
 - **AI Orchestration:** LangGraph.js & LangChain.js
@@ -57,7 +57,7 @@ graph TD
 
 ---
 
-## 🛠️ Kurulum ve Çalıştırma
+## Kurulum ve Çalıştırma
 
 ### Ön Gereksinimler
 - Node.js (v18+)
@@ -122,7 +122,7 @@ Sisteme komut göndermek için kullanılan ana endpoint'tir.
 
 ---
 
-## 📂 Proje Yapısı
+## Proje Yapısı
 
 ```
 DockAgents/
@@ -140,14 +140,11 @@ DockAgents/
 
 ---
 
-## 📜 Tasarım Prensipleri
+## Tasarım Prensipleri
 
 Sistem geliştirilirken aşağıdaki yazılım prensiplerine sadık kalınmıştır:
 - **SOLID Prensipleri:** Her ajan tek bir sorumluluğa sahiptir (SRP) ve BaseAgent üzerinden genişletilebilir (OCP).
 - **DRY (Don't Repeat Yourself):** LLM istemcileri, loglama ve servis yönetimi merkezi bir noktada toplanmıştır.
 - **Self-Healing AI:** Hata raporlarını okuyup kendi yazdığı kodun hatalarını düzelten döngüsel bir yapı kurulmuştur.
 
----
 
-## ⚖️ Lisans
-Bu proje [ISC](LICENSE) lisansı altında lisanslanmıştır.
